@@ -125,20 +125,37 @@ h1{
 
 @media (max-width:660px)  { 
 
+    .progress-bar div span{
+        height: 27px;
+        width: 27px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -8px;
+        margin-right: -10px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .logo {
         margin-top: 5%;
         width:40%;
     }
 
     h1{
+        font-size: 150%;
         margin-top: 5%;
     }
 
     .skills{
-        margin-top: 10%;
+        font-size: 70%;
+        margin-top: 6%;
     }
 
     .progress-bar{
+        margin-bottom: 20px;
         width:250px;
         height: 8px;
     }
